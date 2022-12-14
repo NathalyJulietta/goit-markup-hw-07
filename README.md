@@ -1,4 +1,4 @@
-# goit-markup-hw-0
+# goit-markup-hw-07
 
 GtHin Pages https://nathalyjulietta.github.io/goit-markup-hw-07/
 

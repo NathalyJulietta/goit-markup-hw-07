@@ -10,18 +10,19 @@ header{
         position: absolute;
         width: 48px;
         height: 4px;
-        background: var(--brand-color);
+        background: var(--primary-color);
         border-radius: 2px;
         display: flex;
         margin-top: 25px;
       }
-      &:hover,
-      &:focus{
-        color: var(--brand-color);
+    
+    &:hover,
+    &:focus{
+        color: var(--primary-color);
     }
-    &__links--underline:hover::after{
-        width: 67px;  
-      }
+}
+.header-nav__links--underline:hover::after{
+    width: 67px;  
 }
 
 .header-info__link {
@@ -33,21 +34,21 @@ header{
     
     &:hover,
     &:focus{
-        color: var(--brand-color);
+        color: var(--primary-color);
         }
     }
 .header-info__icon{
         margin-right: 10px;
         fill: var(--third-color);
-    
+
     &:hover,
     &:focus{
-        fill: var(--brand-color);
+        fill: var(--primary-color);
         }
-    }
-.info__icon--tel{
-        margin-left: 30px;
-    }
+}
+.header-info__icon--tel{
+    margin-left: 30px;
+} 
 nav {
     font-size: 14px;
     font-weight: 500;

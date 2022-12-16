@@ -1,13 +1,12 @@
 .features{
     align-items: center;
     margin-right: 35px;
-    &:first-child{
+        &:first-child{
         margin-left: 0;
-    }
-    &:last-child{
+        }
+        &:last-child{
         margin-right: 0;
-    }
-
+        }
     &__icon{
     border-radius: 4px;
     background: var(--color-team);

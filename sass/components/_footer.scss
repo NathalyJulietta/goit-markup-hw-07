@@ -15,7 +15,7 @@
 
     &:hover,
     &:focus{
-        color: var(--brand-color);
+        color: var(--primary-color);
     }
 }
 .footer-socialmedia__icon{
@@ -34,7 +34,7 @@
     height: 44px;
     width: 44px;
     border-radius: 50%;
-    background-color: var(--brand-color);
+    background-color: var(--primary-color);
     fill: var(--second-color);
     }
     
@@ -50,7 +50,7 @@
 
 &:hover,
 &:focus{
-    color: var(--brand-color);
+    color: var(--primary-color);
 }
 }
 .footer__title{
@@ -67,7 +67,7 @@
         height: 50px;
         margin-top: 20px;
         margin-left: 375px;
-        background: var(--brand-color);
+        background: var(--primary-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border:none;
         border-radius: 4px;

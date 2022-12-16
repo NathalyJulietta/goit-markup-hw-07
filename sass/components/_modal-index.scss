@@ -39,7 +39,7 @@
     &__button{
         height: 50px;
         width: 200px;
-        background: var(--brand-color);
+        background: var(--primary-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border: none;
         border-radius: 4px;
@@ -72,8 +72,8 @@
     margin-top: 4px;
 
         &:hover{
-        fill: var(--brand-color);
-        border-color: var(--brand-color);
+        fill: var(--primary-color);
+        border-color: var(--primary-color);
         }
     }
     .check{
@@ -97,7 +97,7 @@
     padding-left: 25px;
     }
     .checkplace__label input[type="checkbox"]:checked + .check{
-    background: var(--brand-color);
+    background: var(--primary-color);
     border: none;
     }
     .checkplace__label input[type="checkbox"]:checked + .check .check__icon{
@@ -113,7 +113,7 @@
 
         &:hover,
         &:focus{
-        border: 1px solid var(--brand-color);
+        border: 1px solid var(--primary-color);
         outline: none;
         }
     }
@@ -153,11 +153,11 @@
 
         &:hover,
         &:focus{
-        border: 1px solid var(--brand-color);
+        border: 1px solid var(--primary-color);
         }
         &:hover + .form__icon,
         &:focus + .form__icon{
-        fill: var(--brand-color);
+        fill: var(--primary-color);
         }
     }
 }
